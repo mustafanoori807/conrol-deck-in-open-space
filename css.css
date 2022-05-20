@@ -1,0 +1,97 @@
+body {
+    background: black;
+    width: 80vw;
+    margin: auto;
+}
+
+
+.space {
+    position: relative;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1445905595283-21f8ae8a33d2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80);
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.control-panel {
+    display: flex;
+    background: linear-gradient(
+            45deg
+            , rgba(250,252,4,1) 50%, rgba(2,0,36,1) 50%);
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    padding: 20px;
+}
+
+.control-panel_inner {
+    text-align: center;
+    position: relative;
+    width: 360px;
+    height: 315px;
+    background: rgb(24, 24, 24);
+    padding: 0px 50px;
+
+}
+
+.input{
+    color: grey;
+    background: rgb(24, 24, 24);
+    border:1px solid yellow;
+    border-radius: 5px;
+}
+.check-buttons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.check-buttons input{
+    margin-right: -8px;
+}
+
+.levers {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+
+.slider {
+    width: 85px;
+
+    transform: rotate(-90deg);
+}
+
+.pwBtn {
+    background-color: yellow;
+    color: black;
+    border-radius: 25px;
+}
+
+.btn {
+    bottom: 0px;
+    right: 40%;
+    position: absolute;
+    border-radius: 50px;
+    padding: 25px;
+    margin: 15px 0 15px 0;
+    background-color: red;
+    font-size: larger;
+    color: white;
+    border: none;
+}
+
+.planet {
+    position: absolute;
+    left: -325px;
+    bottom: -375px;
+}
+
+.rocket {
+    transform: rotate(30deg);
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 175px;
+    bottom: 225px;
+}
